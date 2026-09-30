@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Explore the Royal Family Restaurant menu featuring starters, main course, biryani, desserts and beverages.">
+
+    <title>Menu | Royal Family Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+
+            <span>ROYAL FAMILY</span>
+
+            <small>RESTAURANT</small>
+
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="menu.html" class="active">
+                Menu
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="contact.html" class="nav-button">
+                Reserve a Table
+            </a>
+
+        </nav>
+
+
+        <button
+            class="menu-toggle"
+            onclick="toggleMenu()">
+
+            ☰
+
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= PAGE HERO ================= -->
+
+<section class="hero menu-hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <p class="hero-small">
+            FROM OUR KITCHEN
+        </p>
+
+        <h1>
+            Explore<br>
+            Our Menu
+        </h1>
+
+        <p class="hero-description">
+
+            A delicious selection of favourites,
+            prepared with rich flavours and quality ingredients.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= MENU ================= -->
+
+<section class="menu-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <p>
+                ROYAL FAMILY RESTAURANT
+            </p>
+
+            <h2>
+                Our Menu
+            </h2>
+
+            <span>
+                Choose a category and discover your next favourite dish.
+            </span>
+
+        </div>
+
+
+
+        <!-- ================= FILTER BUTTONS ================= -->
+
+        <div class="menu-filters">
+
+            <button
+                class="filter active"
+                data-category="all">
+
+                All
+
+            </button>
+
+
+            <button
+                class="filter"
+                data-category="starter">
+
+                Starters
+
+            </button>
+
+
+            <button
+                class="filter"
+                data-category="main">
+
+                Main Course
+
+            </button>
+
+
+            <button
+                class="filter"
+                data-category="rice">
+
+                Rice & Biryani
+
+            </button>
+
+
+            <button
+                class="filter"
+                data-category="bread">
+
+                Breads
+
+            </button>
+
+
+            <button
+                class="filter"
+                data-category="dessert">
+
+                Desserts
+
+            </button>
+
+
+            <button
+                class="filter"
+                data-category="beverage">
+
+                Beverages
+
+            </button>
+
+        </div>
+
+
+
+        <!-- ================= MENU LIST ================= -->
+
+        <div class="menu-list">
+
+
+            <!-- ===== STARTERS ===== -->
+
+
+            <div class="menu-item"
+                 data-category="starter">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Paneer Tikka
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Char-grilled cottage cheese
+                        marinated with aromatic spices.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹280
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="starter">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Chicken Tikka
+                        </h3>
+
+                        <span class="nonveg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Tender chicken pieces marinated
+                        with herbs and traditional spices.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹340
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="starter">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Crispy Corn
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Crispy golden corn tossed
+                        with herbs and seasoning.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹220
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="starter">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Veg Spring Rolls
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Crispy rolls filled with
+                        fresh seasoned vegetables.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹210
+                </strong>
+
+            </div>
+
+
+
+            <!-- ===== MAIN COURSE ===== -->
+
+
+            <div class="menu-item"
+                 data-category="main">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Paneer Butter Masala
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Soft paneer cooked in a rich
+                        creamy tomato gravy.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹290
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="main">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Kadai Paneer
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Paneer cooked with peppers,
+                        onions and aromatic spices.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹280
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="main">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Butter Chicken
+                        </h3>
+
+                        <span class="nonveg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Classic chicken cooked in
+                        a rich buttery tomato sauce.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹360
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="main">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Chicken Curry
+                        </h3>
+
+                        <span class="nonveg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Tender chicken simmered
+                        in traditional Indian spices.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹340
+                </strong>
+
+            </div>
+
+
+
+            <!-- ===== RICE & BIRYANI ===== -->
+
+
+            <div class="menu-item"
+                 data-category="rice">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Veg Biryani
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Fragrant basmati rice layered
+                        with vegetables and spices.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹260
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="rice">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Chicken Biryani
+                        </h3>
+
+                        <span class="nonveg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Aromatic basmati rice layered
+                        with tender chicken and masala.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹330
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="rice">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Jeera Rice
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Fragrant basmati rice tempered
+                        with cumin seeds.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹170
+                </strong>
+
+            </div>
+
+
+
+            <!-- ===== BREADS ===== -->
+
+
+            <div class="menu-item"
+                 data-category="bread">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Butter Naan
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Soft tandoor-baked naan
+                        finished with butter.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹70
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="bread">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Garlic Naan
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Tandoor-baked naan topped
+                        with garlic and herbs.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹100
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="bread">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Tandoori Roti
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Traditional whole wheat
+                        tandoori roti.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹40
+                </strong>
+
+            </div>
+
+
+
+            <!-- ===== DESSERTS ===== -->
+
+
+            <div class="menu-item"
+                 data-category="dessert">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Gulab Jamun
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Soft milk dumplings served
+                        warm with sweet syrup.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹120
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="dessert">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Royal Kulfi
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Creamy traditional Indian
+                        frozen dessert.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹150
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="dessert">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Chocolate Brownie
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Warm chocolate brownie
+                        served as a rich dessert.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹180
+                </strong>
+
+            </div>
+
+
+
+            <!-- ===== BEVERAGES ===== -->
+
+
+            <div class="menu-item"
+                 data-category="beverage">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Fresh Lime Soda
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Refreshing lime drink,
+                        sweet or salted.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹100
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="beverage">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Mango Shake
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Creamy mango shake
+                        prepared with fresh mango.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹160
+                </strong>
+
+            </div>
+
+
+
+            <div class="menu-item"
+                 data-category="beverage">
+
+                <div>
+
+                    <div class="dish-name">
+
+                        <h3>
+                            Masala Chai
+                        </h3>
+
+                        <span class="veg-dot">
+                            ●
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Traditional Indian tea
+                        with aromatic spices.
+                    </p>
+
+                </div>
+
+                <strong>
+                    ₹80
+                </strong>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- ================= LEGEND ================= -->
+
+        <div class="menu-legend">
+
+            <span>
+                <i class="veg-dot">●</i>
+                Vegetarian
+            </span>
+
+            <span>
+                <i class="nonveg-dot">●</i>
+                Non-Vegetarian
+            </span>
+
+        </div>
+
+
+        <!-- ================= CTA ================= -->
+
+        <div class="menu-cta">
+
+            <h2>
+                Found Something You Like?
+            </h2>
+
+            <p>
+                Reserve your table and enjoy it with your family and friends.
+            </p>
+
+            <a
+                href="contact.html"
+                class="primary-button">
+
+                Reserve a Table
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+
+        <div>
+
+            <a href="index.html" class="logo">
+
+                <span>
+                    ROYAL FAMILY
+                </span>
+
+                <small>
+                    RESTAURANT
+                </small>
+
+            </a>
+
+
+            <p class="footer-text">
+
+                Good food, warm hospitality
+                and memorable moments.
+
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                QUICK LINKS
+            </h3>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About Us
+            </a>
+
+            <a href="menu.html">
+                Menu
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                CONTACT
+            </h3>
+
+            <p>
+                📍 New Delhi, India
+            </p>
+
+            <p>
+                📞 +91 98765 43210
+            </p>
+
+            <p>
+                ✉ hello@royalfamilyrestaurant.com
+            </p>
+
+            <p>
+                🕐 11:00 AM – 11:00 PM
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Royal Family Restaurant.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+  

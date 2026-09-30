@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Contact Royal Family Restaurant and reserve your table for a memorable dining experience.">
+
+    <title>Contact & Reservation | Royal Family Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+
+            <span>ROYAL FAMILY</span>
+
+            <small>RESTAURANT</small>
+
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="menu.html">
+                Menu
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="contact.html" class="active">
+                Contact
+            </a>
+
+            <a href="#reservation" class="nav-button">
+                Reserve a Table
+            </a>
+
+        </nav>
+
+
+        <button
+            class="menu-toggle"
+            onclick="toggleMenu()">
+
+            ☰
+
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero contact-hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <p class="hero-small">
+            WE WOULD LOVE TO HEAR FROM YOU
+        </p>
+
+        <h1>
+            Contact<br>
+            & Reservation
+        </h1>
+
+        <p class="hero-description">
+
+            Planning a dinner, celebration or
+            family gathering? Let us take care of it.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CONTACT INFO ================= -->
+
+<section class="contact-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <p>
+                GET IN TOUCH
+            </p>
+
+            <h2>
+                We're Here For You
+            </h2>
+
+            <span>
+                Reach out to us or reserve your table below.
+            </span>
+
+        </div>
+
+
+
+        <div class="contact-grid">
+
+
+            <!-- ADDRESS -->
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    📍
+                </div>
+
+                <h3>
+                    Visit Us
+                </h3>
+
+                <p>
+                    123 Royal Avenue,<br>
+                    New Delhi, India
+                </p>
+
+            </div>
+
+
+
+            <!-- PHONE -->
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    📞
+                </div>
+
+                <h3>
+                    Call Us
+                </h3>
+
+                <p>
+                    +91 98765 43210
+                </p>
+
+                <a href="tel:+919876543210">
+                    Call Now
+                </a>
+
+            </div>
+
+
+
+            <!-- EMAIL -->
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    ✉
+                </div>
+
+                <h3>
+                    Email Us
+                </h3>
+
+                <p>
+                    hello@royalfamilyrestaurant.com
+                </p>
+
+                <a href="mailto:hello@royalfamilyrestaurant.com">
+                    Send Email
+                </a>
+
+            </div>
+
+
+
+            <!-- HOURS -->
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+                    🕐
+                </div>
+
+                <h3>
+                    Opening Hours
+                </h3>
+
+                <p>
+                    Monday – Sunday<br>
+                    11:00 AM – 11:00 PM
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= RESERVATION ================= -->
+
+<section class="reservation-section" id="reservation">
+
+    <div class="container reservation-grid">
+
+
+        <!-- LEFT -->
+
+        <div class="reservation-info">
+
+            <p class="about-label">
+                RESERVE YOUR TABLE
+            </p>
+
+            <h2>
+                Make Your<br>
+                Evening Special
+            </h2>
+
+            <p>
+
+                Whether it's a family dinner,
+                birthday celebration or a special
+                occasion, reserve your table with us.
+
+            </p>
+
+
+            <div class="reservation-points">
+
+                <div>
+                    ✓ Freshly prepared food
+                </div>
+
+                <div>
+                    ✓ Comfortable family seating
+                </div>
+
+                <div>
+                    ✓ Perfect for celebrations
+                </div>
+
+                <div>
+                    ✓ Warm and attentive service
+                </div>
+
+            </div>
+
+
+            <a
+                href="https://wa.me/919876543210"
+                class="whatsapp-button"
+                target="_blank">
+
+                💬 Chat on WhatsApp
+
+            </a>
+
+        </div>
+
+
+
+        <!-- FORM -->
+
+        <div class="reservation-box">
+
+            <form class="reservation-form">
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="+91"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>
+                            Date
+                        </label>
+
+                        <input
+                            type="date"
+                            name="date"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Time
+                        </label>
+
+                        <input
+                            type="time"
+                            name="time"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label>
+                        Number of Guests
+                    </label>
+
+                    <select name="guests" required>
+
+                        <option value="">
+                            Select guests
+                        </option>
+
+                        <option>
+                            1 Guest
+                        </option>
+
+                        <option>
+                            2 Guests
+                        </option>
+
+                        <option>
+                            3 Guests
+                        </option>
+
+                        <option>
+                            4 Guests
+                        </option>
+
+                        <option>
+                            5 Guests
+                        </option>
+
+                        <option>
+                            6 Guests
+                        </option>
+
+                        <option>
+                            7+ Guests
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label>
+                        Special Request
+                    </label>
+
+                    <textarea
+                        name="message"
+                        rows="4"
+                        placeholder="Birthday, anniversary, special seating etc."></textarea>
+
+                </div>
+
+
+
+                <button
+                    type="submit"
+                    class="primary-button form-button">
+
+                    Request Reservation
+
+                </button>
+
+
+                <p class="form-note">
+
+                    We will contact you shortly to confirm
+                    your reservation.
+
+                </p>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= MAP ================= -->
+
+<section class="map-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p>
+                FIND US
+            </p>
+
+            <h2>
+                Our Location
+            </h2>
+
+        </div>
+
+
+        <div class="map-box">
+
+            <iframe
+                src="https://www.google.com/maps?q=New+Delhi,+India&output=embed"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FINAL CTA ================= -->
+
+<section class="final-cta">
+
+    <div class="container">
+
+        <p>
+            READY FOR A ROYAL EXPERIENCE?
+        </p>
+
+        <h2>
+            Your Table Is Waiting
+        </h2>
+
+        <a
+            href="#reservation"
+            class="primary-button">
+
+            Reserve Your Table
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+
+        <div>
+
+            <a href="index.html" class="logo">
+
+                <span>
+                    ROYAL FAMILY
+                </span>
+
+                <small>
+                    RESTAURANT
+                </small>
+
+            </a>
+
+            <p class="footer-text">
+
+                Good food, warm hospitality
+                and memorable moments.
+
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                QUICK LINKS
+            </h3>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About Us
+            </a>
+
+            <a href="menu.html">
+                Menu
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                CONTACT
+            </h3>
+
+            <p>
+                📍 New Delhi, India
+            </p>
+
+            <p>
+                📞 +91 98765 43210
+            </p>
+
+            <p>
+                ✉ hello@royalfamilyrestaurant.com
+            </p>
+
+            <p>
+                🕐 11:00 AM – 11:00 PM
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Royal Family Restaurant.
+        All Rights Reserved.
+
+    </div>
+
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
